@@ -10,6 +10,11 @@ A versatile scientific calculator that supports basic arithmetic operations as w
 - **Help Section**: Provides instructions on how to use scientific functions.
 - **Responsive Design**: Works well on various screen sizes.
 
+## Live Demo
+
+You can view the live demo of the calculator at [Scientific Calculator Live Demo](https://manojdu.github.io/scientific-calculator/).
+
+
 ## Installation
 
 To run this project locally, follow these steps:
