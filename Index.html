@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="inputBox" placeholder="0" readonly />
+            <div>
+                <button class="operator" id="all-clear">AC</button>
+                <button class="operator" id="delete">DEL</button>
+                <button class="operator" id="percent">%</button>
+                <button class="operator" id="divide">/</button>
+            </div>
+            <div>
+                <button class="button" id="seven">7</button>
+                <button class="button" id="eight">8</button>
+                <button class="button" id="nine">9</button>
+                <button class="operator" id="multiply">*</button>
+            </div>
+            <div>
+                <button class="button" id="four">4</button>
+                <button class="button" id="five">5</button>
+                <button class="button" id="six">6</button>
+                <button class="operator" id="subtract">-</button>
+            </div>
+            <div>
+                <button class="button" id="one">1</button>
+                <button class="button" id="two">2</button>
+                <button class="button" id="three">3</button>
+                <button class="operator" id="add">+</button>
+            </div>
+            <div>
+                <button class="button" id="zero">0</button>
+                <button class="button" id="double-zero">00</button>
+                <button class="button" id="decimal">.</button>
+                <button class="operator" id="equals">=</button>
+            </div>
+            <div>
+                <button class="operator" id="sin">sin</button>
+                <button class="operator" id="cos">cos</button>
+                <button class="operator" id="tan">tan</button>
+                <button class="operator" id="sqrt">√</button>
+            </div>
+            <div>
+                <button class="operator" id="log">log</button>
+                <button class="operator" id="ln">ln</button>
+                <button class="operator" id="exp">exp</button>
+                <button class="operator" id="pow">x^y</button>
+            </div>
+            <div class="brackets-help">
+                <button class="operator" id="open-bracket">(</button>
+                <button class="operator" id="close-bracket">)</button>
+                <button class="operator" id="help">Help</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>How to Use Scientific Functions:</h3>
+            <ul>
+                <li><strong>Sine (sin)</strong>: Input the angle in degrees and then press the <strong>sin</strong> button. Example: `30 sin`</li>
+                <li><strong>Cosine (cos)</strong>: Input the angle in degrees and then press the <strong>cos</strong> button. Example: `60 cos`</li>
+                <li><strong>Tangent (tan)</strong>: Input the angle in degrees and then press the <strong>tan</strong> button. Example: `45 tan`</li>
+                <li><strong>Square Root (√)</strong>: Input the number and then press the <strong>√</strong> button. Example: `16 √`</li>
+                <li><strong>Logarithm (log)</strong>: Input the number and then press the <strong>log</strong> button. Example: `100 log`</li>
+                <li><strong>Natural Logarithm (ln)</strong>: Input the number and then press the <strong>ln</strong> button. Example: `2.718 ln`</li>
+                <li><strong>Exponential (exp)</strong>: Input the number and then press the <strong>exp</strong> button. Example: `1 exp`</li>
+                <li><strong>Power (x^y)</strong>: Input the base, press <strong>x^y</strong>, then input the exponent. Example: `2 x^y 3 =`</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/manojdu2003" target="_blank" class="social-icon" id="linkedin">
+            <img src="images/linkedin.webp" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/manojdu" target="_blank" class="social-icon" id="github">
+            <img src="images/git.png" alt="GitHub">
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Manoj D U | v3.2.0</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
